@@ -9,7 +9,7 @@ Todo Terreno"***
   <br>
 <h2>Bienvenidos</h2>
   <label>Fecha</label><br>
-  <label>09 de Noviembre al 09 de diciembre de 2022</label>
+  <label>15 de Noviembre al 15 de diciembre de 2022</label>
 </div>
 
 ******TEMARIO 
