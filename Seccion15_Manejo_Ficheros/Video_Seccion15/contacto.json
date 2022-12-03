@@ -1,0 +1,8 @@
+{
+    "contacto": [
+        {"nombre": "Manuel", "empleo": "Desarrollador web", "email": "manuel@ejemplo.com"}, 
+        {"nombre": "Lorena", "empleo": "Gestora de proyectos", "email": "lorena@ejemplo.com"}, 
+        {"nombre": "Javier", "empleo": "Analista de datos", "email": "javier@ejemplo.com"}, 
+        {"nombre": "Maria", "empleo": "Experta en python", "email": "marta@ejemplo.com"}
+    ]
+}
