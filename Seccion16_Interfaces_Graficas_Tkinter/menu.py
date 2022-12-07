@@ -2,12 +2,14 @@ from tkinter import *
 
 root=Tk()
 
+
 menubar=Menu(root)
 root.config(menu=menubar)
 
 
+
 filemenu=Menu(menubar,tearoff=0)
-filemenu.add_command(label="nuevo")
+filemenu.add_command(label="Nuevo")
 filemenu.add_command(label="Abrir")
 filemenu.add_command(label="Guardar")
 filemenu.add_command(label="Cerrar")
@@ -29,5 +31,5 @@ menubar.add_cascade(label="Archivo",menu=filemenu)
 menubar.add_cascade(label="Editar",menu=editmenu)
 menubar.add_cascade(label="Ayuda",menu=helpmenu)
 
-Label(root,text="Bievenidos").pack()
+#Label(root,text="Bievenidos").pack()
 root.mainloop()
