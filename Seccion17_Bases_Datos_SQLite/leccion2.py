@@ -1,6 +1,6 @@
 import sqlite3
 
-conexion=sqlite3.connect("usuarios_uni_auto.db")
+conexion=sqlite3.connect("usuarios_autoincrement.db")
 cursor=conexion.cursor()
 
 #cursor.execute("""
