@@ -14,12 +14,12 @@ filemenu.add_command(label="Abrir")
 filemenu.add_command(label="Guardar")
 filemenu.add_command(label="Cerrar")
 filemenu.add_separator()
-filemenu.add_command(label="salir",command=root.quit)
+filemenu.add_command(label="Salir",command=root.quit)
 
 editmenu=Menu(menubar,tearoff=0)
-editmenu.add_command(label="cortar")
-editmenu.add_command(label="pegar")
-editmenu.add_command(label="cortar")
+editmenu.add_command(label="Copiar")
+editmenu.add_command(label="Pegar")
+editmenu.add_command(label="Cortar")
 
 
 helpmenu=Menu(menubar,tearoff=0)
@@ -31,5 +31,5 @@ menubar.add_cascade(label="Archivo",menu=filemenu)
 menubar.add_cascade(label="Editar",menu=editmenu)
 menubar.add_cascade(label="Ayuda",menu=helpmenu)
 
-#Label(root,text="Bievenidos").pack()
+Label(root,text="Bienvenidos").pack()
 root.mainloop()
